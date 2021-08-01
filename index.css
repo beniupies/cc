@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  background-color: #98c7ff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.cash {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  height: 3.5rem;
+  margin-top: 3vh;
+  background-color: #2a87f8;
+}
+.inputBar p:nth-of-type(2) {
+  font-size: 2.3rem;
+}
+.inputBar button {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 25px;
+  font-size: 2rem;
+}
+.inputBar p:nth-of-type(1) {
+  font-size: 2rem;
+  text-transform: capitalize;
+  font-weight: bold;
+}
